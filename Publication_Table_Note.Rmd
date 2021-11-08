@@ -34,7 +34,6 @@ attach(data)
 ```
 
 
-
 # Analysis of variance in a for loop ----
 ```{r}
 for(i in 1:ncol(data[-c(1:3)])) {
