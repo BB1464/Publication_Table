@@ -12,14 +12,10 @@ library(readxl)
 library(dplyr)
 library(tibble)
 library(flextable)
-
+library(here)
 
 # Importing data ----
-
-data = readxl::read_excel(
-  path = "Data.xlsx",
-  col_names = TRUE
-)
+data<-read_excel('data_anova.xlsx',col_names = TRUE)
 
 
 # Convert categorical variables to factor variables
